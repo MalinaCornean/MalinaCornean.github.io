@@ -1,14 +1,14 @@
 const backgroundImages = [
-    '../Malina/images/project-page-1.jpg',
-    '../Malina/images/project-page-1.jpg',
-    '../Malina/images/project-page-1.jpg',
-    '../Malina/images/project-page-1.jpg',
-    '../Malina/images/project-page-1.jpg',
-    '../Malina/images/project-page-1.jpg',
-    '../Malina/images/project-page-1.jpg',
-    '../Malina/images/project-page-1.jpg',
-    '../Malina/images/project-page-1.jpg',
-    '../Malina/images/project-page-1.jpg',
+    '../images/project-page-1.jpg',
+    '../images/project-page-1.jpg',
+    '../images/project-page-1.jpg',
+    '../images/project-page-1.jpg',
+    '../images/project-page-1.jpg',
+    '../images/project-page-1.jpg',
+    '../images/project-page-1.jpg',
+    '../images/project-page-1.jpg',
+    '../images/project-page-1.jpg',
+    '../images/project-page-1.jpg',
 ]
 
 window.addEventListener("scroll", function() {showFunction()});
