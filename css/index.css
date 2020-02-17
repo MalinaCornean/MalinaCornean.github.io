@@ -116,34 +116,37 @@ li:hover {
 #headline {
     color: #000;
     z-index: 100;
+    width: 1200px;
     font-size: 1.5em;
+    overflow: hidden;
 }
 
 #headline-container {
     display: inline-block;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
+    animation: shrink 7s infinite;
 }
 
 @keyframes shrink {
     0% {
-        width: 11%;
+        width: 32%;
     }
 
     10% {
-        width: 55%;
+        width: 90%;
     }
 
-    60% {
-        width: 55%;
+    40% {
+        width: 90%;
     }
 
     70% {
-        width: 11%;
+        width: 32%;
     }
 
     100% {
-        width: 11%;
+        width: 32%;
     }
 }
 
